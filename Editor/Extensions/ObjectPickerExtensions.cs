@@ -43,6 +43,16 @@ namespace SFEditor.UIElements
             );
         }
 
+        /// <summary>
+        /// Retrives the method info of any method or getter of a property, found inside the containing class that exists in the namesapce located in an assembly that has the parameters that match the array of types being passed in.
+        /// </summary>
+        /// <param name="assembly">This is the assembly of the class that contains the method you want to call.</param>
+        /// <param name="classNamespace">The namesapce of the class containing your method.</param>
+        /// <param name="className">The name of the class that contains the method you are calling.</param>
+        /// <param name="methodName">The method you want to call.</param>
+        /// <param name="parameterTypes">An array of parameters that are in the overload for the method you want call. This has to be exact in the order in the parameter overload. </param>
+        /// <param name="os">This gets the values of the getter if the method is actual a property being called. It gets a value by the object class.</param>
+        /// <returns>Return a method info object that can have invoke be called on  to invoke the hidden method while passing in any <see langword="set"/>of parameters for that method. </returns>
         public static MethodInfo GetHiddenMethodInfo(Assembly assembly, string classNamespace, string className, string methodName, Type[] parameterTypes, out object os)
         {
             var hiddenType = assembly.GetType($"{classNamespace}.{className}");
