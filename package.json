@@ -9,7 +9,7 @@
     "url": "https://www.linkedin.com/in/jonathan-westfall-shatter-fantasy/"
   },
   "dependencies": {
-    "shatter-fantasy.sf-utilities": "https//github.com/Shatter-Fantasy/SF-Utilities.git"
+    "shatter-fantasy.sf-utilities": "0.0.4"
   },
   "documentationUrl": "",
   "keywords": [
