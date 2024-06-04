@@ -1,0 +1,30 @@
+{
+  "name": "shatter-fantasy.sf-ui-elements",
+  "version": "0.0.2",
+  "displayName": "SF UI Elements",
+  "description": "This is the UI Tools developed by\nJonathan Westfall of Shatter Fantasy studio.",
+  "documentationUrl": "",
+  "keywords": [
+    "Editor",
+    "Utilities",
+    "Asset Database",
+    "Shatter Fantasy",
+    "Jonathan Westfall"
+  ],
+  "category": "Template",
+  "author": {
+    "name": "Jonathan Westfall",
+    "url": "https://github.com/Shatter-Fantasy/SF-Editor-Utilities"
+  },
+  "repository": {
+    "url": "https://github.com/Shatter-Fantasy/SF-Editor-Utilities",
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Shatter-Fantasy"
+  },
+  "_upm": {
+    "changelog": ""
+  },
+  "unity": "2023.2"
+}
