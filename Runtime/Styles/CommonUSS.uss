@@ -1,0 +1,80 @@
+@import url("SFComponents.uss");
+
+:root{
+    --dark-grey-background: rgb(40,40,40);
+}
+
+Label {
+    white-space:pre-wrap;
+}
+
+.unity-base-field__label{
+   min-width:18%;
+}
+
+Button{
+    min-height: 15px;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+}
+
+.row > *{
+   flex: 1 1 auto;
+}
+
+.row-item{
+    flex: 1 1 auto;
+}
+
+.card {
+    min-width:200px;
+    width: 25%;
+    padding: 1%;
+    border-radius:5px;
+    background-color: rgb(25,25,25);
+}
+
+.card-header {
+    -unity-text-align: upper-center;
+    margin: 1% 0 20px 0;
+}
+
+.card-body{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-header__title{
+    -unity-text-align: upper-center ;
+}
+
+.image-field {
+    width:50%;
+    margin: 3px 3px;
+}
+.image-label{
+    flex: 1 1 0;
+}
+
+.image-preview {
+    flex: 0 1 150px;
+    min-height: 100px;
+    background-color: var(--dark-grey-background);
+    background-size: contain;
+
+    padding:2px;
+}
+
+
+/*
+.button-group {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.button-group > Button:first-child{
+    border-radius: 0 10px 0 1px;
+}*/
