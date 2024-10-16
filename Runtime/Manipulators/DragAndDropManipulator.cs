@@ -88,8 +88,10 @@ namespace SF
 
 		protected override void UnregisterCallbacksFromTarget()
 		{
-			throw new System.NotImplementedException();
-		}
+            target.UnregisterCallback<PointerDownEvent>(PointerDownHandler);
+            target.UnregisterCallback<PointerMoveEvent>(PointerMoveHandler);
+            target.UnregisterCallback<PointerUpEvent>(PointerUpHandler);
+        }
 		#endregion
 	}
 }
