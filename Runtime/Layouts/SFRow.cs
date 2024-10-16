@@ -1,4 +1,3 @@
-using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace SF.UIElements
@@ -11,6 +10,12 @@ namespace SF.UIElements
         public SFRow()
         {
             AddToClassList(USSClassName);
+        }
+
+        public SFRow(string className) : this()
+        {
+            if(!string.IsNullOrEmpty(className))
+                AddToClassList(className);
         }
     }
 }
