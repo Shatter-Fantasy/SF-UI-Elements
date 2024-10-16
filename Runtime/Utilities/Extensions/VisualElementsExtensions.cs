@@ -1,3 +1,6 @@
+using System;
+
+using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace SF.UIElements.Utilities
@@ -20,6 +23,8 @@ namespace SF.UIElements.Utilities
         }
         public static T AddChild<T>(this T parent, VisualElement child, string[] classNames) where T : VisualElement
         {
+            parent.CheckNullElements(child);
+
             // Make sure we are not passing in an empty array
             if(classNames.Length > 0)
             {
@@ -31,6 +36,33 @@ namespace SF.UIElements.Utilities
             }
 
             parent.Add(child);
+            return parent;
+        }
+
+        public static T AddBindableChild<T,U>(this T parent, U child, string bindingPath, string className = "") where T : VisualElement where U : BindableElement
+        {
+            parent.CheckNullElements(child);
+
+            if(!string.IsNullOrEmpty(bindingPath))
+                child.bindingPath = bindingPath;
+
+            return parent.AddChild(child,className);
+        }
+
+        private static T CheckNullElements<T,U>(this T parent, U child) where T : VisualElement where U : VisualElement
+        {
+            if(parent == null)
+            {
+                Debug.LogError("The parent visual element that is having a child element added to is null.");
+                return null;
+            }
+
+            if(child == null)
+            {
+                Debug.LogError($"The passed in child trying to be added to {parent} is null.");
+                return parent;
+            }
+
             return parent;
         }
 
@@ -57,6 +89,29 @@ namespace SF.UIElements.Utilities
                         target.AddToClassList(classNames[i]);
                 }
             }
+            return target;
+        }
+
+        public static T Rename<T>(this T target, string newName) where T : VisualElement
+        {
+            if(target != null)
+                target.name = newName;
+            return target;
+        }
+
+
+        public static T SetAllBorders<T>(this T target, int borderWidth, Color borderColor) where T : VisualElement
+        {
+            target.style.borderTopColor = borderColor;
+            target.style.borderRightColor = borderColor;
+            target.style.borderBottomColor = borderColor;
+            target.style.borderLeftColor = borderColor;
+
+            target.style.borderTopWidth = borderWidth;
+            target.style.borderRightWidth = borderWidth;
+            target.style.borderLeftWidth = borderWidth;
+            target.style.borderBottomWidth = borderWidth;
+
             return target;
         }
     }
