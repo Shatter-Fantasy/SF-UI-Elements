@@ -8,16 +8,16 @@
     "name": "Jonathan Westfall - Shatter Fantasy",
     "url": "https://www.linkedin.com/in/jonathan-westfall-shatter-fantasy/"
   },
-  "dependencies": {
-    "shatter-fantasy.sf-utilities": "0.0.4"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@USER"
   },
   "documentationUrl": "",
   "keywords": [
-    "Editor",
     "UI Toolkit",
     "Utilities",
     "Shatter Fantasy",
-    "Jonathan Westfall"
+    "Jonathan Westfall",
+    "Community Package"
   ],
   "category": "UI",
   "repository": {
@@ -26,5 +26,6 @@
   },
   "_upm": {
     "changelog": ""
-  }
+  },
+  "hideInEditor": false
 }
