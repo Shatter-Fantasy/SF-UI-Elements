@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Editor/Asset%20Database/Utility%20UI/AssetUtilitiesEditor.uss?fileID=7433441132597879392&amp;guid=ef6fc7dc6c0ba5a4aac53618a19cd04e&amp;type=3#AssetUtilitiesEditor" />
+    <ui:TabView name="main-container">
+        <ui:Tab label="General" name="paths" data-source="project://database/Assets/Editor%20Default%20Resources/Data/Asset%20Utilities/Editor%20Path%20Data.asset?fileID=11400000&amp;guid=d939a2ea731a8874787f78968f59df6c&amp;type=2#Editor Path Data">
+            <ui:VisualElement name="base-path-container" style="flex-grow: 1;">
+                <ui:TextField label="Default Base Path" placeholder-text="filler text" name="default-base-path" value="DefaultBasePath" readonly="true" focusable="false" select-line-by-triple-click="false" select-word-by-double-click="false" select-all-on-mouse-up="false" select-all-on-focus="false" emoji-fallback-support="false">
+                    <Bindings>
+                        <ui:DataBinding property="value" data-source-path="DefaultBasePath" />
+                    </Bindings>
+                </ui:TextField>
+                <ui:TextField label="Custom Base Path" placeholder-text="Assign if you don&apos;t want to use the default path." name="custom-base-path" readonly="false" focusable="true" select-line-by-triple-click="true" select-word-by-double-click="true" select-all-on-mouse-up="true" select-all-on-focus="true" emoji-fallback-support="true">
+                    <Bindings>
+                        <ui:DataBinding property="value" data-source-path="CustomBasePath" update-trigger="OnSourceChanged" />
+                    </Bindings>
+                </ui:TextField>
+            </ui:VisualElement>
+        </ui:Tab>
+    </ui:TabView>
+</ui:UXML>
