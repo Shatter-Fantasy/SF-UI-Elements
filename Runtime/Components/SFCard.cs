@@ -1,6 +1,5 @@
 using SF.UIElements.Utilities;
 
-using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace SF.UIElements
@@ -8,7 +7,7 @@ namespace SF.UIElements
     [UxmlElement]
     public partial class SFCard : VisualElement
     {
-        // This is the overall container element
+        // This is the overall container element class name
         public const string USSClassName = "card";
         public const string USSImageClassName = "card-image";
         public const string USSHeaderClassName = "card-header";
