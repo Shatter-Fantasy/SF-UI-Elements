@@ -27,8 +27,21 @@ Button {
     height: 100%;
 }
 
-.sf-button-group {
+/* SF Row classes*/
+.sf-row {
     display: flex;
+    flex-direction: row;
+}
+
+/*  sf-row-item sets all children to take up the same flex baxis. 
+    Making them all take the same size in the SF Row container as
+    long as the content of one doesn't get to big for it's container.
+    To prevent one from getting bigger due to it's content change the 
+    auto to a set value for all of them.
+    Example three buttons side by side with one having a bigger text label.
+*/
+.sf-row--item {
+    flex:1 1 auto;
 }
 
 .row {
@@ -43,6 +56,11 @@ Button {
 .row.split > * {
     width: 50%;
 }
+
+.sf-button-group {
+    display: flex;
+}
+
 
 .card {
     min-width: 200px;
@@ -131,3 +149,5 @@ Button {
     border-top-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
 }
+
+
