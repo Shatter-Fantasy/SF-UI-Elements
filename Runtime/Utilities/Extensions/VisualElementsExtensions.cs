@@ -39,6 +39,17 @@ namespace SF.UIElements.Utilities
             return parent;
         }
 
+        /// <summary>
+        /// Will log an error if either the child or parent UI Element is null.
+        /// Doesn't stop the sequence of method chaining in progress. You have to do that in the calling method.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="U"></typeparam>
+        /// <param name="parent"></param>
+        /// <param name="child"></param>
+        /// <param name="bindingPath"></param>
+        /// <param name="className"></param>
+        /// <returns></returns>
         public static T AddBindableChild<T,U>(this T parent, U child, string bindingPath, string className = "") where T : VisualElement where U : BindableElement
         {
             parent.CheckNullElements(child);
@@ -98,7 +109,6 @@ namespace SF.UIElements.Utilities
                 target.name = newName;
             return target;
         }
-
 
         public static T SetAllBorders<T>(this T target, int borderWidth, Color borderColor) where T : VisualElement
         {
