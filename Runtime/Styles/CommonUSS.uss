@@ -11,8 +11,23 @@ Button {
     min-height: 15px;
 }
 
+/* These unity-base-field classes will possibly cause some issues for smaller resolution monitors,
+    but truthfully at the moment not sure what would be the best solution to make sure the 
+    label match up on the edges when you have a vertical list of input fields for entering data.
+    Maybe I need to create my own sf-base-field classes to override them.
+    First thought is to have my own C# SF Input Field class.
+    Have it take in a value type and generate the type of input field and set the uss class names in it.
+    Benefits would be having the ability to set my own C# BindableElement class that implements INotifyValueChanged.
+*/
+.unity-base-field{
+    max-width: 350px;
+}
 .unity-base-field__label {
-    min-width: 18%;
+    min-width: 80px;
+}
+
+.unity-base-field__input {
+    min-width: 30%;
 }
 
 .header-label {
@@ -33,6 +48,9 @@ Button {
     flex-direction: row;
 }
 
+    .sf-row.two-column > * {
+        width: 50%;
+    }
 /*  sf-row-item sets all children to take up the same flex baxis. 
     Making them all take the same size in the SF Row container as
     long as the content of one doesn't get to big for it's container.
@@ -43,6 +61,11 @@ Button {
 .sf-row--item {
     flex:1 1 auto;
 }
+
+/* The sf-row class will now be used instead of just row. 
+    This will allow users to make their own custom row class without conflicts.
+    We are only keeping them for now to prevent breaking projects that already used them.
+*/
 
 .row {
     display: flex;
