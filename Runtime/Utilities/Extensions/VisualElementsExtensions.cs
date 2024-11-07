@@ -13,6 +13,20 @@ namespace SF.UIElements.Utilities
             return parent.AddChild(row);
         }
 
+        /// <summary>
+        /// Adds the sf-row--item uss class name to the first depth children.
+        /// </summary>
+        /// <param name="parent"></param>
+        /// <returns></returns>
+        public static T SetChildrenAsRowItems<T>(this T parent) where T : VisualElement
+        {
+            foreach(var child in parent.Children())
+            {
+                child.AddToClassList("sf-row--item");
+            }
+            return parent;
+        }
+
         public static T AddChild<T>(this T parent, VisualElement child, string className = "") where T : VisualElement
         {
             if(!string.IsNullOrEmpty(className))
