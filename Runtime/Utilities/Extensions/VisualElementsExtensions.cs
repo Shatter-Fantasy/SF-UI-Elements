@@ -124,6 +124,27 @@ namespace SF.UIElements.Utilities
             return target;
         }
 
+        public static T SetFontSize<T>(this T target, int fontSize) where T : VisualElement
+        {
+            target.style.fontSize = fontSize;
+            return target;
+        }
+
+        public static T SetWidth<T>(this T target, int width, LengthUnit lengthUnit) where T : VisualElement
+        {
+            target.style.width = new Length(width, lengthUnit);
+            return target;
+        }
+
+        public static T SetAllMargin<T>(this T target, int margin, LengthUnit lengthUnit = LengthUnit.Pixel) where T : VisualElement
+        {
+            target.style.marginTop = new Length(margin, lengthUnit);
+            target.style.marginBottom = new Length(margin, lengthUnit);
+            target.style.marginLeft = new Length(margin, lengthUnit);
+            target.style.marginRight = new Length(margin, lengthUnit);
+            return target;
+        }
+
         public static T SetAllBorders<T>(this T target, int borderWidth, Color borderColor) where T : VisualElement
         {
             target.style.borderTopColor = borderColor;
@@ -138,5 +159,7 @@ namespace SF.UIElements.Utilities
 
             return target;
         }
+
+
     }
 }
