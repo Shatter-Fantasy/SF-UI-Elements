@@ -1,11 +1,26 @@
+# Important Documentation Notice
+A lot of the documentation is being written on a GitBook documentation site by Jonathan Westfall. 
+The documentation will have a GitHub repo to allow for feedback and pull requests to add to community section.
+
+https://jonathans-private-organization.gitbook.io/sf-tool-documentation
+
+
 # Important Pre Alpha Notice!!!
 This package is in pre alpha release, so not even alpha one is out.
-Some folders have a couple scripts that were added, but not fully implemented yet just to keep track of what is needed for Alpha 1 release.
+Some folders have a couple scripts that were added, but not fully implemented yet, just to keep track of what is needed for Alpha 1 release.
 See the very bottom section on this page to see what all is planned to change or be added for the Alpha 1 release.
 
 ## Introduction
-Introduction sections is being a WIP for the read me.
+Introduction section is a WIP for the read me on the repo page. Alpha 1 release will have the initial intorduction finished.
 
+The SF UI Elements package is designed to help make working with Unity's UI Toolkit a bit easier through a set of utility methods and custom visual elements.
+Starting in Alpha 2 there will be pre-made controls, fields, base classes to help set up window based editor tools, a set core uss styles seperated into different style sheets.
+
+
+## Types Of Style Sheet
+---
+### Component Style Sheet
+The component style sheet will have the styles for pre-made compoents.
 
 ## Alpha One Release Plan
 ---
@@ -21,7 +36,6 @@ Some of the below might have had files added to the repo already and needs to be
 This started before we had a workflow to integrate branches, release note generation, and more using GitHub actions.
 So some files need cleaned up and moved out of the master branch. 
 ---
-
 ### Editor Window Base
 The Editor Window Base class will be fully redone not that we have a better idea of ways to do custom binding to custom controls and now that we know
 how we want to set up asset loading for editor based visual elements.
@@ -31,8 +45,6 @@ The Asset Database folder will be removed and added back in later.
 We decided to move the Asset Database asset tool to Alpha 2. This is to get Alpha 1 out sooner and because Jonathan Westfall (SF Deverloper)
 figured out how to hook into Unity Package Manager API. The API hook allows us to auto download dependencies from GitHub automatically, so we can link for example.
 SF UI Elements Alpha 1 release to SF Utilities Alpha 1 release. The SF Utilities already had some nice ways utility tools for Unity's Asset Database API.
-
-### 
 
 Change log format guide
 https://keepachangelog.com/en/1.1.0/
