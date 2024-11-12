@@ -1,21 +1,21 @@
 # Important Documentation Notice
-A lot of the documentation is being written on a GitBook documentation site by Jonathan Westfall. 
-The documentation will have a GitHub repo to allow for feedback and pull requests to add to community section.
+The documentation process was finalized the week of Novemeber 10, 2024. The docuemntation will be updated more over this week. 
+At the moment the API documentation for the pre-alpha has begun, but the API properties need more descriptions and the manual needs added.
+The manual button at the top will do nothing at the moment when clicked so don't worry if you click it and it does nothing. It is not a bug.
+The manual is being implemented either the week of Novemeber 10th, or the following week. We are focusing on the API documentation and landing page first.
 
-https://jonathans-private-organization.gitbook.io/sf-tool-documentation
-
+[Example WIP API Documentation Page](https://shatter-fantasy.github.io/SF-UI-Elements/api/SFEditor.UIElements.Utilities.MouseRectDragManipulator.html)
 
 # Important Pre Alpha Notice!!!
 This package is in pre alpha release, so not even alpha one is out.
-Some folders have a couple scripts that were added, but not fully implemented yet, just to keep track of what is needed for Alpha 1 release.
+Some folders have a couple scripts that were added, but not fully implemented yet, just to keep track of what is needed for Alpha 1 full release.
 See the very bottom section on this page to see what all is planned to change or be added for the Alpha 1 release.
 
 ## Introduction
-Introduction section is a WIP for the read me on the repo page. Alpha 1 release will have the initial intorduction finished.
+Introduction section is a WIP for the read me on the repo page. Alpha 1 release will have the initial introduction finished.
 
 The SF UI Elements package is designed to help make working with Unity's UI Toolkit a bit easier through a set of utility methods and custom visual elements.
 Starting in Alpha 2 there will be pre-made controls, fields, base classes to help set up window based editor tools, a set core uss styles seperated into different style sheets.
-
 
 ## Types Of Style Sheet
 ---
