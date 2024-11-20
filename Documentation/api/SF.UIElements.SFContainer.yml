@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.SFContainer
+  commentId: T:SF.UIElements.SFContainer
+  id: SFContainer
+  parent: SF.UIElements
+  children:
+  - SF.UIElements.SFContainer.#ctor
+  langs:
+  - csharp
+  - vb
+  name: SFContainer
+  nameWithType: SFContainer
+  fullName: SF.UIElements.SFContainer
+  type: Class
+  source:
+    id: SFContainer
+    path: ''
+    startLine: 543
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: 'public class SFContainer : VisualElement'
+    content.vb: Public Class SFContainer Inherits VisualElement
+  inheritance:
+  - System.Object
+- uid: SF.UIElements.SFContainer.#ctor
+  commentId: M:SF.UIElements.SFContainer.#ctor
+  id: '#ctor'
+  parent: SF.UIElements.SFContainer
+  langs:
+  - csharp
+  - vb
+  name: SFContainer()
+  nameWithType: SFContainer.SFContainer()
+  fullName: SF.UIElements.SFContainer.SFContainer()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 546
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFContainer()
+    content.vb: Public Sub New()
+  overload: SF.UIElements.SFContainer.#ctor*
+  nameWithType.vb: SFContainer.New()
+  fullName.vb: SF.UIElements.SFContainer.New()
+  name.vb: New()
+references:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  spec.csharp:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+  spec.vb:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.UIElements.SFContainer.#ctor*
+  commentId: Overload:SF.UIElements.SFContainer.#ctor
+  name: SFContainer
+  nameWithType: SFContainer.SFContainer
+  fullName: SF.UIElements.SFContainer.SFContainer
+  nameWithType.vb: SFContainer.New
+  fullName.vb: SF.UIElements.SFContainer.New
+  name.vb: New

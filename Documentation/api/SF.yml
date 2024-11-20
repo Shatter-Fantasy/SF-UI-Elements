@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF
+  commentId: N:SF
+  id: SF
+  children:
+  - SF.DragAndDropManipulator
+  langs:
+  - csharp
+  - vb
+  name: SF
+  nameWithType: SF
+  fullName: SF
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: SF.DragAndDropManipulator
+  commentId: T:SF.DragAndDropManipulator
+  name: DragAndDropManipulator
+  nameWithType: DragAndDropManipulator
+  fullName: SF.DragAndDropManipulator

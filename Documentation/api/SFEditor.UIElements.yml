@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements
+  commentId: N:SFEditor.UIElements
+  id: SFEditor.UIElements
+  children:
+  - SFEditor.UIElements.EditorUIElementsSandbox
+  - SFEditor.UIElements.ObjectPickerExtensions
+  - SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: SFEditor.UIElements
+  nameWithType: SFEditor.UIElements
+  fullName: SFEditor.UIElements
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: SFEditor.UIElements.SFImageField
+  commentId: T:SFEditor.UIElements.SFImageField
+  name: SFImageField
+  nameWithType: SFImageField
+  fullName: SFEditor.UIElements.SFImageField
+- uid: SFEditor.UIElements.ObjectPickerExtensions
+  commentId: T:SFEditor.UIElements.ObjectPickerExtensions
+  name: ObjectPickerExtensions
+  nameWithType: ObjectPickerExtensions
+  fullName: SFEditor.UIElements.ObjectPickerExtensions
+- uid: SFEditor.UIElements.EditorUIElementsSandbox
+  commentId: T:SFEditor.UIElements.EditorUIElementsSandbox
+  name: EditorUIElementsSandbox
+  nameWithType: EditorUIElementsSandbox
+  fullName: SFEditor.UIElements.EditorUIElementsSandbox

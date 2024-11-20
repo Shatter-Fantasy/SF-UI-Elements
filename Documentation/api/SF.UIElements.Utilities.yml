@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  id: SF.UIElements.Utilities
+  children:
+  - SF.UIElements.Utilities.SFCommonStyleClasses
+  - SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: SF.UIElements.Utilities.VisualElementsExtensions
+  commentId: T:SF.UIElements.Utilities.VisualElementsExtensions
+  name: VisualElementsExtensions
+  nameWithType: VisualElementsExtensions
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions
+- uid: SF.UIElements.Utilities.SFCommonStyleClasses
+  commentId: T:SF.UIElements.Utilities.SFCommonStyleClasses
+  name: SFCommonStyleClasses
+  nameWithType: SFCommonStyleClasses
+  fullName: SF.UIElements.Utilities.SFCommonStyleClasses

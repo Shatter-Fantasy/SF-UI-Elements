@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.SFButtonGroup
+  commentId: T:SF.UIElements.SFButtonGroup
+  id: SFButtonGroup
+  parent: SF.UIElements
+  children:
+  - SF.UIElements.SFButtonGroup.#ctor
+  - SF.UIElements.SFButtonGroup.#ctor(Button[])
+  - SF.UIElements.SFButtonGroup.AddButton
+  - SF.UIElements.SFButtonGroup.AddButton(Button)
+  - SF.UIElements.SFButtonGroup.USSClassName
+  langs:
+  - csharp
+  - vb
+  name: SFButtonGroup
+  nameWithType: SFButtonGroup
+  fullName: SF.UIElements.SFButtonGroup
+  type: Class
+  source:
+    id: SFButtonGroup
+    path: ''
+    startLine: 596
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: 'public class SFButtonGroup : VisualElement'
+    content.vb: Public Class SFButtonGroup Inherits VisualElement
+  inheritance:
+  - System.Object
+- uid: SF.UIElements.SFButtonGroup.USSClassName
+  commentId: F:SF.UIElements.SFButtonGroup.USSClassName
+  id: USSClassName
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: USSClassName
+  nameWithType: SFButtonGroup.USSClassName
+  fullName: SF.UIElements.SFButtonGroup.USSClassName
+  type: Field
+  source:
+    id: USSClassName
+    path: ''
+    startLine: 602
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSClassName = "button-group"
+    return:
+      type: System.String
+    content.vb: Public Const USSClassName As String = "button-group"
+- uid: SF.UIElements.SFButtonGroup.#ctor
+  commentId: M:SF.UIElements.SFButtonGroup.#ctor
+  id: '#ctor'
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: SFButtonGroup()
+  nameWithType: SFButtonGroup.SFButtonGroup()
+  fullName: SF.UIElements.SFButtonGroup.SFButtonGroup()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 604
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFButtonGroup()
+    content.vb: Public Sub New()
+  overload: SF.UIElements.SFButtonGroup.#ctor*
+  nameWithType.vb: SFButtonGroup.New()
+  fullName.vb: SF.UIElements.SFButtonGroup.New()
+  name.vb: New()
+- uid: SF.UIElements.SFButtonGroup.#ctor(Button[])
+  commentId: M:SF.UIElements.SFButtonGroup.#ctor(Button[])
+  id: '#ctor(Button[])'
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: SFButtonGroup(Button[])
+  nameWithType: SFButtonGroup.SFButtonGroup(Button[])
+  fullName: SF.UIElements.SFButtonGroup.SFButtonGroup(Button[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 609
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFButtonGroup(Button[] buttons)
+    parameters:
+    - id: buttons
+      type: Global.Button[]
+    content.vb: Public Sub New(buttons As Button())
+  overload: SF.UIElements.SFButtonGroup.#ctor*
+  nameWithType.vb: SFButtonGroup.New(Button())
+  fullName.vb: SF.UIElements.SFButtonGroup.New(Button())
+  name.vb: New(Button())
+- uid: SF.UIElements.SFButtonGroup.AddButton(Button)
+  commentId: M:SF.UIElements.SFButtonGroup.AddButton(Button)
+  id: AddButton(Button)
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: AddButton(Button)
+  nameWithType: SFButtonGroup.AddButton(Button)
+  fullName: SF.UIElements.SFButtonGroup.AddButton(Button)
+  type: Method
+  source:
+    id: AddButton
+    path: ''
+    startLine: 621
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  summary: "\nAdds a new button to the Button Group.\n"
+  example: []
+  syntax:
+    content: public void AddButton(Button button)
+    parameters:
+    - id: button
+      type: Global.Button
+      description: ''
+    content.vb: Public Sub AddButton(button As Button)
+  overload: SF.UIElements.SFButtonGroup.AddButton*
+- uid: SF.UIElements.SFButtonGroup.AddButton
+  commentId: M:SF.UIElements.SFButtonGroup.AddButton
+  id: AddButton
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: AddButton()
+  nameWithType: SFButtonGroup.AddButton()
+  fullName: SF.UIElements.SFButtonGroup.AddButton()
+  type: Method
+  source:
+    id: AddButton
+    path: ''
+    startLine: 630
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  summary: "\nAdds a new button to the Button Group and also returns it to the calling method to allow for editing the newly created button properties.\n"
+  example: []
+  syntax:
+    content: public Button AddButton()
+    return:
+      type: Global.Button
+      description: ''
+    content.vb: Public Function AddButton() As Button
+  overload: SF.UIElements.SFButtonGroup.AddButton*
+references:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  spec.csharp:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+  spec.vb:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SF.UIElements.SFButtonGroup.#ctor*
+  commentId: Overload:SF.UIElements.SFButtonGroup.#ctor
+  name: SFButtonGroup
+  nameWithType: SFButtonGroup.SFButtonGroup
+  fullName: SF.UIElements.SFButtonGroup.SFButtonGroup
+  nameWithType.vb: SFButtonGroup.New
+  fullName.vb: SF.UIElements.SFButtonGroup.New
+  name.vb: New
+- uid: Global.Button[]
+  isExternal: true
+  name: Button[]
+  nameWithType: Button[]
+  fullName: Button[]
+  nameWithType.vb: Button()
+  fullName.vb: Button()
+  name.vb: Button()
+  spec.csharp:
+  - uid: Global.Button
+    name: Button
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.Button
+    name: Button
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.AddButton*
+  commentId: Overload:SF.UIElements.SFButtonGroup.AddButton
+  name: AddButton
+  nameWithType: SFButtonGroup.AddButton
+  fullName: SF.UIElements.SFButtonGroup.AddButton
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button

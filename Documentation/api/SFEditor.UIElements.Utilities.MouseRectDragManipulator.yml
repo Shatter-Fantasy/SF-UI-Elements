@@ -1,0 +1,928 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  commentId: T:SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  id: MouseRectDragManipulator
+  parent: SFEditor.UIElements.Utilities
+  children:
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor(MouseButton,System.Single,EventModifiers,System.Action{Rect},System.Action{Rect},System.Action{Rect})
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor(MouseButton,System.Single,EventModifiers)
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.CanDrag
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.DeltaPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragRect
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.EndingPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.HandlesMatrix
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.IsDragging
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragEndHandler
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragMoveHandler
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragStartHandler
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown(MouseDownEvent)
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave(MouseLeaveEvent)
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove(MouseMoveEvent)
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp(MouseUpEvent)
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.StartingPosition
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging(System.Boolean)
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragOnMouseLeave
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget
+  langs:
+  - csharp
+  - vb
+  name: MouseRectDragManipulator
+  nameWithType: MouseRectDragManipulator
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  type: Class
+  source:
+    id: MouseRectDragManipulator
+    path: ''
+    startLine: 157
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: 'public class MouseRectDragManipulator : MouseManipulator'
+    content.vb: Public Class MouseRectDragManipulator Inherits MouseManipulator
+  inheritance:
+  - System.Object
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StartingPosition
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.StartingPosition
+  id: StartingPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: StartingPosition
+  nameWithType: MouseRectDragManipulator.StartingPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StartingPosition
+  type: Field
+  source:
+    id: StartingPosition
+    path: ''
+    startLine: 159
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 StartingPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public StartingPosition As Vector2
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.DeltaPosition
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.DeltaPosition
+  id: DeltaPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: DeltaPosition
+  nameWithType: MouseRectDragManipulator.DeltaPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.DeltaPosition
+  type: Field
+  source:
+    id: DeltaPosition
+    path: ''
+    startLine: 160
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 DeltaPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public DeltaPosition As Vector2
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragPosition
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragPosition
+  id: DragPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: DragPosition
+  nameWithType: MouseRectDragManipulator.DragPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragPosition
+  type: Field
+  source:
+    id: DragPosition
+    path: ''
+    startLine: 161
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 DragPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public DragPosition As Vector2
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.EndingPosition
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.EndingPosition
+  id: EndingPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: EndingPosition
+  nameWithType: MouseRectDragManipulator.EndingPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.EndingPosition
+  type: Field
+  source:
+    id: EndingPosition
+    path: ''
+    startLine: 162
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 EndingPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public EndingPosition As Vector2
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragRect
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragRect
+  id: DragRect
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: DragRect
+  nameWithType: MouseRectDragManipulator.DragRect
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.DragRect
+  type: Field
+  source:
+    id: DragRect
+    path: ''
+    startLine: 163
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Rect DragRect
+    return:
+      type: Global.Rect
+    content.vb: Public DragRect As Rect
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.HandlesMatrix
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.HandlesMatrix
+  id: HandlesMatrix
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: HandlesMatrix
+  nameWithType: MouseRectDragManipulator.HandlesMatrix
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.HandlesMatrix
+  type: Field
+  source:
+    id: HandlesMatrix
+    path: ''
+    startLine: 166
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Matrix4x4 HandlesMatrix
+    return:
+      type: Global.Matrix4x4
+    content.vb: Public HandlesMatrix As Matrix4x4
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition
+  commentId: P:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition
+  id: InversedStartingPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: InversedStartingPosition
+  nameWithType: MouseRectDragManipulator.InversedStartingPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition
+  type: Property
+  source:
+    id: InversedStartingPosition
+    path: ''
+    startLine: 167
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 InversedStartingPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public ReadOnly Property InversedStartingPosition As Vector2
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition
+  commentId: P:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition
+  id: InversedDeltaPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: InversedDeltaPosition
+  nameWithType: MouseRectDragManipulator.InversedDeltaPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition
+  type: Property
+  source:
+    id: InversedDeltaPosition
+    path: ''
+    startLine: 169
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 InversedDeltaPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public ReadOnly Property InversedDeltaPosition As Vector2
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition
+  commentId: P:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition
+  id: InversedDragPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: InversedDragPosition
+  nameWithType: MouseRectDragManipulator.InversedDragPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition
+  type: Property
+  source:
+    id: InversedDragPosition
+    path: ''
+    startLine: 171
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 InversedDragPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public ReadOnly Property InversedDragPosition As Vector2
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition
+  commentId: P:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition
+  id: InversedEndingPosition
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: InversedEndingPosition
+  nameWithType: MouseRectDragManipulator.InversedEndingPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition
+  type: Property
+  source:
+    id: InversedEndingPosition
+    path: ''
+    startLine: 173
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Vector2 InversedEndingPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public ReadOnly Property InversedEndingPosition As Vector2
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect
+  commentId: P:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect
+  id: InversedDragRect
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: InversedDragRect
+  nameWithType: MouseRectDragManipulator.InversedDragRect
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect
+  type: Property
+  source:
+    id: InversedDragRect
+    path: ''
+    startLine: 175
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Rect InversedDragRect { get; }
+    parameters: []
+    return:
+      type: Global.Rect
+    content.vb: Public ReadOnly Property InversedDragRect As Rect
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragStartHandler
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragStartHandler
+  id: OnDragStartHandler
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: OnDragStartHandler
+  nameWithType: MouseRectDragManipulator.OnDragStartHandler
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragStartHandler
+  type: Field
+  source:
+    id: OnDragStartHandler
+    path: ''
+    startLine: 178
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Action<Rect> OnDragStartHandler
+    return:
+      type: System.Action{Rect}
+    content.vb: Public OnDragStartHandler As Action(Of Rect)
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragMoveHandler
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragMoveHandler
+  id: OnDragMoveHandler
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: OnDragMoveHandler
+  nameWithType: MouseRectDragManipulator.OnDragMoveHandler
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragMoveHandler
+  type: Field
+  source:
+    id: OnDragMoveHandler
+    path: ''
+    startLine: 179
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Action<Rect> OnDragMoveHandler
+    return:
+      type: System.Action{Rect}
+    content.vb: Public OnDragMoveHandler As Action(Of Rect)
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragEndHandler
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragEndHandler
+  id: OnDragEndHandler
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: OnDragEndHandler
+  nameWithType: MouseRectDragManipulator.OnDragEndHandler
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnDragEndHandler
+  type: Field
+  source:
+    id: OnDragEndHandler
+    path: ''
+    startLine: 180
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public Action<Rect> OnDragEndHandler
+    return:
+      type: System.Action{Rect}
+    content.vb: Public OnDragEndHandler As Action(Of Rect)
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.IsDragging
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.IsDragging
+  id: IsDragging
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: IsDragging
+  nameWithType: MouseRectDragManipulator.IsDragging
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.IsDragging
+  type: Field
+  source:
+    id: IsDragging
+    path: ''
+    startLine: 182
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public bool IsDragging
+    return:
+      type: System.Boolean
+    content.vb: Public IsDragging As Boolean
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.CanDrag
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.CanDrag
+  id: CanDrag
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: CanDrag
+  nameWithType: MouseRectDragManipulator.CanDrag
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.CanDrag
+  type: Field
+  source:
+    id: CanDrag
+    path: ''
+    startLine: 183
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public bool CanDrag
+    return:
+      type: System.Boolean
+    content.vb: Public CanDrag As Boolean
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragOnMouseLeave
+  commentId: F:SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragOnMouseLeave
+  id: StopDragOnMouseLeave
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: StopDragOnMouseLeave
+  nameWithType: MouseRectDragManipulator.StopDragOnMouseLeave
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragOnMouseLeave
+  type: Field
+  source:
+    id: StopDragOnMouseLeave
+    path: ''
+    startLine: 184
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public bool StopDragOnMouseLeave
+    return:
+      type: System.Boolean
+    content.vb: Public StopDragOnMouseLeave As Boolean
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor(MouseButton,System.Single,EventModifiers)
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor(MouseButton,System.Single,EventModifiers)
+  id: '#ctor(MouseButton,System.Single,EventModifiers)'
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: MouseRectDragManipulator(MouseButton, float, EventModifiers)
+  nameWithType: MouseRectDragManipulator.MouseRectDragManipulator(MouseButton, float, EventModifiers)
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.MouseRectDragManipulator(MouseButton, float, EventModifiers)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 188
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public MouseRectDragManipulator(MouseButton mouseButton, float mouseDownDuration, EventModifiers eventModifiers = null)
+    parameters:
+    - id: mouseButton
+      type: Global.MouseButton
+    - id: mouseDownDuration
+      type: System.Single
+    - id: eventModifiers
+      type: Global.EventModifiers
+    content.vb: Public Sub New(mouseButton As MouseButton, mouseDownDuration As Single, eventModifiers As EventModifiers = Nothing)
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor*
+  nameWithType.vb: MouseRectDragManipulator.New(MouseButton, Single, EventModifiers)
+  fullName.vb: SFEditor.UIElements.Utilities.MouseRectDragManipulator.New(MouseButton, Single, EventModifiers)
+  name.vb: New(MouseButton, Single, EventModifiers)
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor(MouseButton,System.Single,EventModifiers,System.Action{Rect},System.Action{Rect},System.Action{Rect})
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor(MouseButton,System.Single,EventModifiers,System.Action{Rect},System.Action{Rect},System.Action{Rect})
+  id: '#ctor(MouseButton,System.Single,EventModifiers,System.Action{Rect},System.Action{Rect},System.Action{Rect})'
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: MouseRectDragManipulator(MouseButton, float, EventModifiers, Action<Rect>, Action<Rect>, Action<Rect>)
+  nameWithType: MouseRectDragManipulator.MouseRectDragManipulator(MouseButton, float, EventModifiers, Action<Rect>, Action<Rect>, Action<Rect>)
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.MouseRectDragManipulator(MouseButton, float, EventModifiers, System.Action<Rect>, System.Action<Rect>, System.Action<Rect>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 199
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public MouseRectDragManipulator(MouseButton mouseButton, float mouseDownDuration, EventModifiers eventModifiers = null, Action<Rect> onDragStarted = null, Action<Rect> onDragMoved = null, Action<Rect> onDragEnded = null)
+    parameters:
+    - id: mouseButton
+      type: Global.MouseButton
+    - id: mouseDownDuration
+      type: System.Single
+    - id: eventModifiers
+      type: Global.EventModifiers
+    - id: onDragStarted
+      type: System.Action{Rect}
+    - id: onDragMoved
+      type: System.Action{Rect}
+    - id: onDragEnded
+      type: System.Action{Rect}
+    content.vb: Public Sub New(mouseButton As MouseButton, mouseDownDuration As Single, eventModifiers As EventModifiers = Nothing, onDragStarted As Action(Of Rect) = Nothing, onDragMoved As Action(Of Rect) = Nothing, onDragEnded As Action(Of Rect) = Nothing)
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor*
+  nameWithType.vb: MouseRectDragManipulator.New(MouseButton, Single, EventModifiers, Action(Of Rect), Action(Of Rect), Action(Of Rect))
+  fullName.vb: SFEditor.UIElements.Utilities.MouseRectDragManipulator.New(MouseButton, Single, EventModifiers, System.Action(Of Rect), System.Action(Of Rect), System.Action(Of Rect))
+  name.vb: New(MouseButton, Single, EventModifiers, Action(Of Rect), Action(Of Rect), Action(Of Rect))
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown(MouseDownEvent)
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown(MouseDownEvent)
+  id: OnMouseDown(MouseDownEvent)
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: OnMouseDown(MouseDownEvent)
+  nameWithType: MouseRectDragManipulator.OnMouseDown(MouseDownEvent)
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown(MouseDownEvent)
+  type: Method
+  source:
+    id: OnMouseDown
+    path: ''
+    startLine: 217
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: protected virtual void OnMouseDown(MouseDownEvent evt)
+    parameters:
+    - id: evt
+      type: Global.MouseDownEvent
+    content.vb: Protected Overridable Sub OnMouseDown(evt As MouseDownEvent)
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove(MouseMoveEvent)
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove(MouseMoveEvent)
+  id: OnMouseMove(MouseMoveEvent)
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: OnMouseMove(MouseMoveEvent)
+  nameWithType: MouseRectDragManipulator.OnMouseMove(MouseMoveEvent)
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove(MouseMoveEvent)
+  type: Method
+  source:
+    id: OnMouseMove
+    path: ''
+    startLine: 242
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: protected virtual void OnMouseMove(MouseMoveEvent evt)
+    parameters:
+    - id: evt
+      type: Global.MouseMoveEvent
+    content.vb: Protected Overridable Sub OnMouseMove(evt As MouseMoveEvent)
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp(MouseUpEvent)
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp(MouseUpEvent)
+  id: OnMouseUp(MouseUpEvent)
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: OnMouseUp(MouseUpEvent)
+  nameWithType: MouseRectDragManipulator.OnMouseUp(MouseUpEvent)
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp(MouseUpEvent)
+  type: Method
+  source:
+    id: OnMouseUp
+    path: ''
+    startLine: 256
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: protected virtual void OnMouseUp(MouseUpEvent evt)
+    parameters:
+    - id: evt
+      type: Global.MouseUpEvent
+    content.vb: Protected Overridable Sub OnMouseUp(evt As MouseUpEvent)
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave(MouseLeaveEvent)
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave(MouseLeaveEvent)
+  id: OnMouseLeave(MouseLeaveEvent)
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: OnMouseLeave(MouseLeaveEvent)
+  nameWithType: MouseRectDragManipulator.OnMouseLeave(MouseLeaveEvent)
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave(MouseLeaveEvent)
+  type: Method
+  source:
+    id: OnMouseLeave
+    path: ''
+    startLine: 279
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: protected virtual void OnMouseLeave(MouseLeaveEvent evt)
+    parameters:
+    - id: evt
+      type: Global.MouseLeaveEvent
+    content.vb: Protected Overridable Sub OnMouseLeave(evt As MouseLeaveEvent)
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging(System.Boolean)
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging(System.Boolean)
+  id: StopDragging(System.Boolean)
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: StopDragging(bool)
+  nameWithType: MouseRectDragManipulator.StopDragging(bool)
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging(bool)
+  type: Method
+  source:
+    id: StopDragging
+    path: ''
+    startLine: 320
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public void StopDragging(bool doKeepRect = false)
+    parameters:
+    - id: doKeepRect
+      type: System.Boolean
+    content.vb: Public Sub StopDragging(doKeepRect As Boolean = False)
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging*
+  nameWithType.vb: MouseRectDragManipulator.StopDragging(Boolean)
+  fullName.vb: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging(Boolean)
+  name.vb: StopDragging(Boolean)
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget
+  id: RegisterCallbacksOnTarget
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: RegisterCallbacksOnTarget()
+  nameWithType: MouseRectDragManipulator.RegisterCallbacksOnTarget()
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget()
+  type: Method
+  source:
+    id: RegisterCallbacksOnTarget
+    path: ''
+    startLine: 327
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: protected override void RegisterCallbacksOnTarget()
+    content.vb: Protected Overrides Sub RegisterCallbacksOnTarget()
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget*
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget
+  commentId: M:SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget
+  id: UnregisterCallbacksFromTarget
+  parent: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  langs:
+  - csharp
+  - vb
+  name: UnregisterCallbacksFromTarget()
+  nameWithType: MouseRectDragManipulator.UnregisterCallbacksFromTarget()
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget()
+  type: Method
+  source:
+    id: UnregisterCallbacksFromTarget
+    path: ''
+    startLine: 335
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: protected override void UnregisterCallbacksFromTarget()
+    content.vb: Protected Overrides Sub UnregisterCallbacksFromTarget()
+  overload: SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget*
+references:
+- uid: SFEditor.UIElements.Utilities
+  commentId: N:SFEditor.UIElements.Utilities
+  name: SFEditor.UIElements.Utilities
+  nameWithType: SFEditor.UIElements.Utilities
+  fullName: SFEditor.UIElements.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+  - name: .
+  - uid: SFEditor.UIElements.Utilities
+    name: Utilities
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+  - name: .
+  - uid: SFEditor.UIElements.Utilities
+    name: Utilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: Global.Matrix4x4
+  commentId: '!:Global.Matrix4x4'
+  isExternal: true
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Matrix4x4
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition
+  name: InversedStartingPosition
+  nameWithType: MouseRectDragManipulator.InversedStartingPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedStartingPosition
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition
+  name: InversedDeltaPosition
+  nameWithType: MouseRectDragManipulator.InversedDeltaPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDeltaPosition
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition
+  name: InversedDragPosition
+  nameWithType: MouseRectDragManipulator.InversedDragPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragPosition
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition
+  name: InversedEndingPosition
+  nameWithType: MouseRectDragManipulator.InversedEndingPosition
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedEndingPosition
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect
+  name: InversedDragRect
+  nameWithType: MouseRectDragManipulator.InversedDragRect
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.InversedDragRect
+- uid: System.Action{Rect}
+  commentId: T:System.Action{Rect}
+  parent: System
+  definition: System.Action`1
+  name: Action<Rect>
+  nameWithType: Action<Rect>
+  fullName: System.Action<Rect>
+  nameWithType.vb: Action(Of Rect)
+  fullName.vb: System.Action(Of Rect)
+  name.vb: Action(Of Rect)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Rect
+    name: Rect
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Rect
+    name: Rect
+    isExternal: true
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.#ctor
+  name: MouseRectDragManipulator
+  nameWithType: MouseRectDragManipulator.MouseRectDragManipulator
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.MouseRectDragManipulator
+  nameWithType.vb: MouseRectDragManipulator.New
+  fullName.vb: SFEditor.UIElements.Utilities.MouseRectDragManipulator.New
+  name.vb: New
+- uid: Global.MouseButton
+  isExternal: true
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: MouseButton
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.EventModifiers
+  isExternal: true
+  name: EventModifiers
+  nameWithType: EventModifiers
+  fullName: EventModifiers
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown
+  name: OnMouseDown
+  nameWithType: MouseRectDragManipulator.OnMouseDown
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseDown
+- uid: Global.MouseDownEvent
+  commentId: '!:Global.MouseDownEvent'
+  isExternal: true
+  name: MouseDownEvent
+  nameWithType: MouseDownEvent
+  fullName: MouseDownEvent
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove
+  name: OnMouseMove
+  nameWithType: MouseRectDragManipulator.OnMouseMove
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseMove
+- uid: Global.MouseMoveEvent
+  commentId: '!:Global.MouseMoveEvent'
+  isExternal: true
+  name: MouseMoveEvent
+  nameWithType: MouseMoveEvent
+  fullName: MouseMoveEvent
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp
+  name: OnMouseUp
+  nameWithType: MouseRectDragManipulator.OnMouseUp
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseUp
+- uid: Global.MouseUpEvent
+  commentId: '!:Global.MouseUpEvent'
+  isExternal: true
+  name: MouseUpEvent
+  nameWithType: MouseUpEvent
+  fullName: MouseUpEvent
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave
+  name: OnMouseLeave
+  nameWithType: MouseRectDragManipulator.OnMouseLeave
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.OnMouseLeave
+- uid: Global.MouseLeaveEvent
+  commentId: '!:Global.MouseLeaveEvent'
+  isExternal: true
+  name: MouseLeaveEvent
+  nameWithType: MouseLeaveEvent
+  fullName: MouseLeaveEvent
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging
+  name: StopDragging
+  nameWithType: MouseRectDragManipulator.StopDragging
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.StopDragging
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget
+  name: RegisterCallbacksOnTarget
+  nameWithType: MouseRectDragManipulator.RegisterCallbacksOnTarget
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.RegisterCallbacksOnTarget
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget*
+  commentId: Overload:SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget
+  name: UnregisterCallbacksFromTarget
+  nameWithType: MouseRectDragManipulator.UnregisterCallbacksFromTarget
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator.UnregisterCallbacksFromTarget

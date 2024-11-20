@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.SFRow
+  commentId: T:SF.UIElements.SFRow
+  id: SFRow
+  parent: SF.UIElements
+  children:
+  - SF.UIElements.SFRow.#ctor
+  - SF.UIElements.SFRow.#ctor(System.String)
+  - SF.UIElements.SFRow.#ctor(System.String[])
+  - SF.UIElements.SFRow.ObsoleteUSSClassName
+  - SF.UIElements.SFRow.USSClassName
+  langs:
+  - csharp
+  - vb
+  name: SFRow
+  nameWithType: SFRow
+  fullName: SF.UIElements.SFRow
+  type: Class
+  source:
+    id: SFRow
+    path: ''
+    startLine: 560
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: 'public class SFRow : VisualElement'
+    content.vb: Public Class SFRow Inherits VisualElement
+  inheritance:
+  - System.Object
+- uid: SF.UIElements.SFRow.ObsoleteUSSClassName
+  commentId: F:SF.UIElements.SFRow.ObsoleteUSSClassName
+  id: ObsoleteUSSClassName
+  parent: SF.UIElements.SFRow
+  langs:
+  - csharp
+  - vb
+  name: ObsoleteUSSClassName
+  nameWithType: SFRow.ObsoleteUSSClassName
+  fullName: SF.UIElements.SFRow.ObsoleteUSSClassName
+  type: Field
+  source:
+    id: ObsoleteUSSClassName
+    path: ''
+    startLine: 564
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: >-
+      [Obsolete("We are now using sf-row as the class to to prevent any conflicts with clas names users write them selves. This is just kept to prevent breaking projects already using it.")]
+
+      public const string ObsoleteUSSClassName = "row"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("We are now using sf-row as the class to to prevent any conflicts with clas names users write them selves. This is just kept to prevent breaking projects already using it.")>
+
+      Public Const ObsoleteUSSClassName As String = "row"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: We are now using sf-row as the class to to prevent any conflicts with clas names users write them selves. This is just kept to prevent breaking projects already using it.
+- uid: SF.UIElements.SFRow.USSClassName
+  commentId: F:SF.UIElements.SFRow.USSClassName
+  id: USSClassName
+  parent: SF.UIElements.SFRow
+  langs:
+  - csharp
+  - vb
+  name: USSClassName
+  nameWithType: SFRow.USSClassName
+  fullName: SF.UIElements.SFRow.USSClassName
+  type: Field
+  source:
+    id: USSClassName
+    path: ''
+    startLine: 565
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSClassName = "sf-row"
+    return:
+      type: System.String
+    content.vb: Public Const USSClassName As String = "sf-row"
+- uid: SF.UIElements.SFRow.#ctor
+  commentId: M:SF.UIElements.SFRow.#ctor
+  id: '#ctor'
+  parent: SF.UIElements.SFRow
+  langs:
+  - csharp
+  - vb
+  name: SFRow()
+  nameWithType: SFRow.SFRow()
+  fullName: SF.UIElements.SFRow.SFRow()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 567
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFRow()
+    content.vb: Public Sub New()
+  overload: SF.UIElements.SFRow.#ctor*
+  nameWithType.vb: SFRow.New()
+  fullName.vb: SF.UIElements.SFRow.New()
+  name.vb: New()
+- uid: SF.UIElements.SFRow.#ctor(System.String)
+  commentId: M:SF.UIElements.SFRow.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SF.UIElements.SFRow
+  langs:
+  - csharp
+  - vb
+  name: SFRow(string)
+  nameWithType: SFRow.SFRow(string)
+  fullName: SF.UIElements.SFRow.SFRow(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 572
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFRow(string className)
+    parameters:
+    - id: className
+      type: System.String
+    content.vb: Public Sub New(className As String)
+  overload: SF.UIElements.SFRow.#ctor*
+  nameWithType.vb: SFRow.New(String)
+  fullName.vb: SF.UIElements.SFRow.New(String)
+  name.vb: New(String)
+- uid: SF.UIElements.SFRow.#ctor(System.String[])
+  commentId: M:SF.UIElements.SFRow.#ctor(System.String[])
+  id: '#ctor(System.String[])'
+  parent: SF.UIElements.SFRow
+  langs:
+  - csharp
+  - vb
+  name: SFRow(string[])
+  nameWithType: SFRow.SFRow(string[])
+  fullName: SF.UIElements.SFRow.SFRow(string[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 578
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFRow(string[] classNames)
+    parameters:
+    - id: classNames
+      type: System.String[]
+    content.vb: Public Sub New(classNames As String())
+  overload: SF.UIElements.SFRow.#ctor*
+  nameWithType.vb: SFRow.New(String())
+  fullName.vb: SF.UIElements.SFRow.New(String())
+  name.vb: New(String())
+references:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  spec.csharp:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+  spec.vb:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SF.UIElements.SFRow.#ctor*
+  commentId: Overload:SF.UIElements.SFRow.#ctor
+  name: SFRow
+  nameWithType: SFRow.SFRow
+  fullName: SF.UIElements.SFRow.SFRow
+  nameWithType.vb: SFRow.New
+  fullName.vb: SF.UIElements.SFRow.New
+  name.vb: New
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )

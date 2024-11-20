@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.EditorUIElementsSandbox
+  commentId: T:SFEditor.UIElements.EditorUIElementsSandbox
+  id: EditorUIElementsSandbox
+  parent: SFEditor.UIElements
+  children:
+  - SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow
+  langs:
+  - csharp
+  - vb
+  name: EditorUIElementsSandbox
+  nameWithType: EditorUIElementsSandbox
+  fullName: SFEditor.UIElements.EditorUIElementsSandbox
+  type: Class
+  source:
+    id: EditorUIElementsSandbox
+    path: ''
+    startLine: 352
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements
+  syntax:
+    content: 'public class EditorUIElementsSandbox : EditorWindow'
+    content.vb: Public Class EditorUIElementsSandbox Inherits EditorWindow
+  inheritance:
+  - System.Object
+- uid: SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow
+  commentId: M:SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow
+  id: OpenWindow
+  parent: SFEditor.UIElements.EditorUIElementsSandbox
+  langs:
+  - csharp
+  - vb
+  name: OpenWindow()
+  nameWithType: EditorUIElementsSandbox.OpenWindow()
+  fullName: SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow()
+  type: Method
+  source:
+    id: OpenWindow
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public static void OpenWindow()
+    content.vb: Public Shared Sub OpenWindow()
+  overload: SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow*
+references:
+- uid: SFEditor.UIElements
+  commentId: N:SFEditor.UIElements
+  name: SFEditor.UIElements
+  nameWithType: SFEditor.UIElements
+  fullName: SFEditor.UIElements
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow*
+  commentId: Overload:SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow
+  name: OpenWindow
+  nameWithType: EditorUIElementsSandbox.OpenWindow
+  fullName: SFEditor.UIElements.EditorUIElementsSandbox.OpenWindow

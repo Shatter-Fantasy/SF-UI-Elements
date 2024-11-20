@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  id: SF.UIElements
+  children:
+  - SF.UIElements.SFButtonGroup
+  - SF.UIElements.SFCard
+  - SF.UIElements.SFContainer
+  - SF.UIElements.SFRow
+  langs:
+  - csharp
+  - vb
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: SF.UIElements.SFCard
+  commentId: T:SF.UIElements.SFCard
+  name: SFCard
+  nameWithType: SFCard
+  fullName: SF.UIElements.SFCard
+- uid: SF.UIElements.SFContainer
+  commentId: T:SF.UIElements.SFContainer
+  name: SFContainer
+  nameWithType: SFContainer
+  fullName: SF.UIElements.SFContainer
+- uid: SF.UIElements.SFRow
+  commentId: T:SF.UIElements.SFRow
+  name: SFRow
+  nameWithType: SFRow
+  fullName: SF.UIElements.SFRow
+- uid: SF.UIElements.SFButtonGroup
+  commentId: T:SF.UIElements.SFButtonGroup
+  name: SFButtonGroup
+  nameWithType: SFButtonGroup
+  fullName: SF.UIElements.SFButtonGroup

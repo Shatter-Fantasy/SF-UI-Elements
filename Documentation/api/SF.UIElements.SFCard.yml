@@ -1,0 +1,367 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.SFCard
+  commentId: T:SF.UIElements.SFCard
+  id: SFCard
+  parent: SF.UIElements
+  children:
+  - SF.UIElements.SFCard.#ctor
+  - SF.UIElements.SFCard.#ctor(VisualElement,System.String)
+  - SF.UIElements.SFCard.BodyContainer
+  - SF.UIElements.SFCard.CardImage
+  - SF.UIElements.SFCard.HeaderContainer
+  - SF.UIElements.SFCard.HeaderTitle
+  - SF.UIElements.SFCard.USSBodyClassName
+  - SF.UIElements.SFCard.USSClassName
+  - SF.UIElements.SFCard.USSHeaderClassName
+  - SF.UIElements.SFCard.USSHeaderTitleClassName
+  - SF.UIElements.SFCard.USSImageClassName
+  langs:
+  - csharp
+  - vb
+  name: SFCard
+  nameWithType: SFCard
+  fullName: SF.UIElements.SFCard
+  type: Class
+  source:
+    id: SFCard
+    path: ''
+    startLine: 495
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: 'public class SFCard : VisualElement'
+    content.vb: Public Class SFCard Inherits VisualElement
+  inheritance:
+  - System.Object
+- uid: SF.UIElements.SFCard.USSClassName
+  commentId: F:SF.UIElements.SFCard.USSClassName
+  id: USSClassName
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: USSClassName
+  nameWithType: SFCard.USSClassName
+  fullName: SF.UIElements.SFCard.USSClassName
+  type: Field
+  source:
+    id: USSClassName
+    path: ''
+    startLine: 499
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSClassName = "card"
+    return:
+      type: System.String
+    content.vb: Public Const USSClassName As String = "card"
+- uid: SF.UIElements.SFCard.USSImageClassName
+  commentId: F:SF.UIElements.SFCard.USSImageClassName
+  id: USSImageClassName
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: USSImageClassName
+  nameWithType: SFCard.USSImageClassName
+  fullName: SF.UIElements.SFCard.USSImageClassName
+  type: Field
+  source:
+    id: USSImageClassName
+    path: ''
+    startLine: 500
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSImageClassName = "card-image"
+    return:
+      type: System.String
+    content.vb: Public Const USSImageClassName As String = "card-image"
+- uid: SF.UIElements.SFCard.USSHeaderClassName
+  commentId: F:SF.UIElements.SFCard.USSHeaderClassName
+  id: USSHeaderClassName
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: USSHeaderClassName
+  nameWithType: SFCard.USSHeaderClassName
+  fullName: SF.UIElements.SFCard.USSHeaderClassName
+  type: Field
+  source:
+    id: USSHeaderClassName
+    path: ''
+    startLine: 501
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSHeaderClassName = "card-header"
+    return:
+      type: System.String
+    content.vb: Public Const USSHeaderClassName As String = "card-header"
+- uid: SF.UIElements.SFCard.USSHeaderTitleClassName
+  commentId: F:SF.UIElements.SFCard.USSHeaderTitleClassName
+  id: USSHeaderTitleClassName
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: USSHeaderTitleClassName
+  nameWithType: SFCard.USSHeaderTitleClassName
+  fullName: SF.UIElements.SFCard.USSHeaderTitleClassName
+  type: Field
+  source:
+    id: USSHeaderTitleClassName
+    path: ''
+    startLine: 502
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSHeaderTitleClassName = "card-header__title"
+    return:
+      type: System.String
+    content.vb: Public Const USSHeaderTitleClassName As String = "card-header__title"
+- uid: SF.UIElements.SFCard.USSBodyClassName
+  commentId: F:SF.UIElements.SFCard.USSBodyClassName
+  id: USSBodyClassName
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: USSBodyClassName
+  nameWithType: SFCard.USSBodyClassName
+  fullName: SF.UIElements.SFCard.USSBodyClassName
+  type: Field
+  source:
+    id: USSBodyClassName
+    path: ''
+    startLine: 503
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSBodyClassName = "card-body"
+    return:
+      type: System.String
+    content.vb: Public Const USSBodyClassName As String = "card-body"
+- uid: SF.UIElements.SFCard.CardImage
+  commentId: F:SF.UIElements.SFCard.CardImage
+  id: CardImage
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: CardImage
+  nameWithType: SFCard.CardImage
+  fullName: SF.UIElements.SFCard.CardImage
+  type: Field
+  source:
+    id: CardImage
+    path: ''
+    startLine: 505
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public Image CardImage
+    return:
+      type: Global.Image
+    content.vb: Public CardImage As Image
+- uid: SF.UIElements.SFCard.HeaderContainer
+  commentId: F:SF.UIElements.SFCard.HeaderContainer
+  id: HeaderContainer
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: HeaderContainer
+  nameWithType: SFCard.HeaderContainer
+  fullName: SF.UIElements.SFCard.HeaderContainer
+  type: Field
+  source:
+    id: HeaderContainer
+    path: ''
+    startLine: 506
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public VisualElement HeaderContainer
+    return:
+      type: Global.VisualElement
+    content.vb: Public HeaderContainer As VisualElement
+- uid: SF.UIElements.SFCard.HeaderTitle
+  commentId: F:SF.UIElements.SFCard.HeaderTitle
+  id: HeaderTitle
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: HeaderTitle
+  nameWithType: SFCard.HeaderTitle
+  fullName: SF.UIElements.SFCard.HeaderTitle
+  type: Field
+  source:
+    id: HeaderTitle
+    path: ''
+    startLine: 507
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public Label HeaderTitle
+    return:
+      type: Global.Label
+    content.vb: Public HeaderTitle As Label
+- uid: SF.UIElements.SFCard.BodyContainer
+  commentId: F:SF.UIElements.SFCard.BodyContainer
+  id: BodyContainer
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: BodyContainer
+  nameWithType: SFCard.BodyContainer
+  fullName: SF.UIElements.SFCard.BodyContainer
+  type: Field
+  source:
+    id: BodyContainer
+    path: ''
+    startLine: 508
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public VisualElement BodyContainer
+    return:
+      type: Global.VisualElement
+    content.vb: Public BodyContainer As VisualElement
+- uid: SF.UIElements.SFCard.#ctor
+  commentId: M:SF.UIElements.SFCard.#ctor
+  id: '#ctor'
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: SFCard()
+  nameWithType: SFCard.SFCard()
+  fullName: SF.UIElements.SFCard.SFCard()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 510
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFCard()
+    content.vb: Public Sub New()
+  overload: SF.UIElements.SFCard.#ctor*
+  nameWithType.vb: SFCard.New()
+  fullName.vb: SF.UIElements.SFCard.New()
+  name.vb: New()
+- uid: SF.UIElements.SFCard.#ctor(VisualElement,System.String)
+  commentId: M:SF.UIElements.SFCard.#ctor(VisualElement,System.String)
+  id: '#ctor(VisualElement,System.String)'
+  parent: SF.UIElements.SFCard
+  langs:
+  - csharp
+  - vb
+  name: SFCard(VisualElement, string)
+  nameWithType: SFCard.SFCard(VisualElement, string)
+  fullName: SF.UIElements.SFCard.SFCard(VisualElement, string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 517
+  assemblies:
+  - cs.temp.dll
+  namespace: SF.UIElements
+  syntax:
+    content: public SFCard(VisualElement bodyContent, string cardTitle = "")
+    parameters:
+    - id: bodyContent
+      type: Global.VisualElement
+    - id: cardTitle
+      type: System.String
+    content.vb: Public Sub New(bodyContent As VisualElement, cardTitle As String = "")
+  overload: SF.UIElements.SFCard.#ctor*
+  nameWithType.vb: SFCard.New(VisualElement, String)
+  fullName.vb: SF.UIElements.SFCard.New(VisualElement, String)
+  name.vb: New(VisualElement, String)
+references:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  spec.csharp:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+  spec.vb:
+  - uid: SF
+    name: SF
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.Image
+  commentId: '!:Global.Image'
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.VisualElement
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: VisualElement
+- uid: Global.Label
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: Label
+- uid: SF.UIElements.SFCard.#ctor*
+  commentId: Overload:SF.UIElements.SFCard.#ctor
+  name: SFCard
+  nameWithType: SFCard.SFCard
+  fullName: SF.UIElements.SFCard.SFCard
+  nameWithType.vb: SFCard.New
+  fullName.vb: SF.UIElements.SFCard.New
+  name.vb: New
