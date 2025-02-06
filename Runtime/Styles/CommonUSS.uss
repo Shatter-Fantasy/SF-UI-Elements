@@ -19,9 +19,10 @@ Button {
     Have it take in a value type and generate the type of input field and set the uss class names in it.
     Benefits would be having the ability to set my own C# BindableElement class that implements INotifyValueChanged.
 */
-.unity-base-field{
+/*.unity-base-field {
     max-width: 350px;
-}
+}*/
+
 .unity-base-field__label {
     min-width: 80px;
 }

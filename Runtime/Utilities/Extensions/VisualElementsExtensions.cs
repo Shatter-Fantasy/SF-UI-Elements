@@ -1,10 +1,17 @@
-using System;
-
 using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace SF.UIElements.Utilities
 {
+    public enum BorderSide
+    {
+        AllSides,
+        LeftSide,
+        RightSide,
+        TopSide,
+        BottomSide,
+    }
+
     public static class VisualElementsExtensions
     {
         public static T AddRow<T>(this T parent) where T : VisualElement
@@ -145,6 +152,55 @@ namespace SF.UIElements.Utilities
             return target;
         }
 
+        public static T SetAllPadding<T>(this T target, int padding, LengthUnit lengthUnit = LengthUnit.Pixel) where T : VisualElement
+        {
+            target.style.paddingTop = new Length(padding, lengthUnit);
+            target.style.paddingBottom = new Length(padding, lengthUnit);
+            target.style.paddingLeft = new Length(padding, lengthUnit);
+            target.style.paddingRight = new Length(padding, lengthUnit);
+            return target;
+        }
+
+        public static T SetBorder<T>(this T target, 
+            int borderWidth, Color borderColor, 
+            BorderSide borderSide = BorderSide.TopSide) where T : VisualElement
+        {
+            switch(borderSide)
+            {
+                case BorderSide.AllSides:
+                    {
+                        target.SetAllBorders(borderWidth, borderColor);
+                        break;
+                    }
+                case BorderSide.LeftSide:
+                    {
+                        target.style.borderLeftColor = borderColor;
+                        target.style.borderLeftWidth = borderWidth;
+                        break;
+                    }
+                case BorderSide.RightSide:
+                    {
+                        target.style.borderRightColor = borderColor;
+                        target.style.borderRightWidth = borderWidth;
+                        break;
+                    }
+                case BorderSide.TopSide:
+                    {
+                        target.style.borderTopColor = borderColor;
+                        target.style.borderTopWidth = borderWidth;
+                        break;
+                    }
+                case BorderSide.BottomSide:
+                    {
+                        target.style.borderBottomColor = borderColor;
+                        target.style.borderBottomWidth = borderWidth;
+                        break;
+                    }
+            }
+            return target;
+        }
+
+
         public static T SetAllBorders<T>(this T target, int borderWidth, Color borderColor) where T : VisualElement
         {
             target.style.borderTopColor = borderColor;
@@ -160,6 +216,14 @@ namespace SF.UIElements.Utilities
             return target;
         }
 
+        public static T SetAllBordersRadius<T>(this T target, int borderRadius) where T : VisualElement
+        {
+            target.style.borderTopRightRadius = borderRadius;
+            target.style.borderTopLeftRadius = borderRadius;
+            target.style.borderBottomRightRadius = borderRadius;
+            target.style.borderBottomLeftRadius = borderRadius;
 
+            return target;
+        }
     }
 }

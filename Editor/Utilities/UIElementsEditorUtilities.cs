@@ -5,6 +5,8 @@ using static UnityEditor.AssetDatabase;
 using UnityEngine.UIElements;
 using System.Dynamic;
 using UnityEngine;
+using System.Runtime.CompilerServices;
+using System.IO;
 
 namespace SFEditor.UIElements.Utilities
 {
@@ -30,6 +32,31 @@ namespace SFEditor.UIElements.Utilities
                 return false;
             asset = LoadAssetAtPath<T>(GUIDToAssetPath(guids[0]));
             return asset != null;
+        }
+
+        /// <summary>
+        /// Uses the CallerFilePath attribute to get the absolute path of the calling script.
+        /// Than removes the extention after the period.
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
+        public static string GetCallerPathWithoutExtension([CallerFilePath] string filePath = "")
+        {
+            // Nice built in C# function that when passing in null removes the extention at the end of a path.
+            return Path.ChangeExtension(filePath, null);
+        }
+
+        /// <summary>
+        /// Uses the CallerFilePath attribute to get the absolute path of the calling script.
+        /// Than removes the extention after the period.
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
+        public static string GetCallerPathWithNewExtension(string newExtention,
+            [CallerFilePath] string filePath = "")
+        {
+            // Nice built in C# function that when passing in null removes the extention at the end of a path.
+            return Path.ChangeExtension(filePath, newExtention);
         }
     }
 }
