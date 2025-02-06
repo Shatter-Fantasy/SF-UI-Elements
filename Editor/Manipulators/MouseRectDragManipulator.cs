@@ -3,6 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+// TODO: Shove this into the SFEditor.UIElements instead.
 namespace SFEditor.UIElements.Utilities
 {
     public class MouseRectDragManipulator : MouseManipulator
@@ -139,6 +140,33 @@ namespace SFEditor.UIElements.Utilities
                 StopDragging();
             }
             evt.StopPropagation();
+        }
+
+        /// <summary>
+        /// Makes a Rect that will have positive values for width and height.
+        /// </summary>
+        /// <param name="startPosition"></param>
+        /// <param name="endPosition"></param>
+        /// <returns></returns>
+        private Rect AbsoluteRectValues(Vector2 startPosition, Vector2 endPosition )
+        {
+            float xPosition = (startPosition.x < endPosition.x)
+                ? startPosition.x
+                : endPosition.x;
+
+            float yPosition = (startPosition.y < endPosition.y)
+                ? startPosition.y
+                : endPosition.y;
+
+            float width = (startPosition.x < endPosition.x)
+                ? endPosition.x - startPosition.x
+                : startPosition.x - endPosition.x;
+
+            float height = (startPosition.y < endPosition.y)
+                ? endPosition.y - startPosition.y
+                : startPosition.y - endPosition.y;
+
+            return new Rect(xPosition, yPosition, width, height);
         }
 
         public void StopDragging(bool doKeepRect = false)
