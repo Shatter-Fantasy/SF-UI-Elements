@@ -3,7 +3,7 @@ name: Example documentation
 on:
   push:
     branches:
-      - master
+      - stable-release-pages
 
 jobs:
   # Build the documentation
