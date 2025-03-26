@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.UIElements.Experimental;
 
 namespace SF.UIElements.Utilities
 {
@@ -14,6 +15,17 @@ namespace SF.UIElements.Utilities
 
     public static class VisualElementsExtensions
     {
+        public static VisualElement AddVisualElement(string name = "")
+        {
+            // TODO: Do some validation on the passed in name.
+            VisualElement newElement = new VisualElement()
+            {
+                name = name
+            };
+            
+            return newElement;
+        }
+        
         public static T AddRow<T>(this T parent) where T : VisualElement
         {
             SFRow row = new();
@@ -223,6 +235,21 @@ namespace SF.UIElements.Utilities
             target.style.borderBottomRightRadius = borderRadius;
             target.style.borderBottomLeftRadius = borderRadius;
 
+            return target;
+        }
+        
+        
+        /* Start of the event registering extensions. */
+        public static T AddCallback<T,TEventType>(this T target, EventCallback<TEventType> callback)
+            where T : VisualElement
+            where TEventType : EventBase<TEventType>, new()
+        {
+            if (target == null)
+            {
+               Debug.LogWarning("When trying to register a UI Event the target UI was null.");
+            }
+            
+            target?.RegisterCallback<TEventType>(callback);
             return target;
         }
     }

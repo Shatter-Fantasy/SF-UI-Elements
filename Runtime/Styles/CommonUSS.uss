@@ -11,6 +11,15 @@ Button {
     min-height: 15px;
 }
 
+/* Start of the layout section*/
+SideBarLayout {
+    
+}
+
+SideBarLayout .side-bar{
+    
+}
+
 /* These unity-base-field classes will possibly cause some issues for smaller resolution monitors,
     but truthfully at the moment not sure what would be the best solution to make sure the 
     label match up on the edges when you have a vertical list of input fields for entering data.
@@ -174,4 +183,14 @@ Button {
     border-bottom-color: rgba(0, 0, 0, 0);
 }
 
+/* Start of all layouts. */
 
+/* Start of layouts for side bars.*/
+.side-bar {
+    display: flex;
+    flex-direction: row;
+}
+.side-bar > .side-bar__menu{
+    min-width: 200px;
+    max-width: 30%;
+}
