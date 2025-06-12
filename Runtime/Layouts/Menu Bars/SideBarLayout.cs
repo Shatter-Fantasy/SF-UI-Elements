@@ -14,6 +14,7 @@ namespace SF.UIElements
         public const string USSClassName = "side-bar";
         public const string SideBarMenuUSSName = USSClassName + "__menu";
         public const string SideBarContainerUSSName = USSClassName + "__container";
+        
         public SideBarLayout()
         {
             this.AddChild ( 
@@ -23,13 +24,14 @@ namespace SF.UIElements
             ).AddChild ( 
                 // Start of the main content container.
                 ContentContainer = AddVisualElement(SideBarContainerUSSName)
+                    .AddClass(SideBarContainerUSSName)
             )   // Start of root uss class names.
                 .AddClass(USSClassName);
         }
         
+        
         private void OnWelcomeLinkClicked(PointerDownLinkTagEvent evt)
         {
-            
             Application.OpenURL(evt.linkText);
         }
     }
