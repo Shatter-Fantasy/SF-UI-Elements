@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 using SF.DataAssets;
-using System;
+
 
 namespace SFEditor.DataAssets.UIElements
 {
@@ -19,13 +19,16 @@ namespace SFEditor.DataAssets.UIElements
 
         private VisualElement _root;
         private ListView _categoryListView;
-
+        
+        /*
         [MenuItem("SF/Editor/Asset Database")]
         public static void ShowExample()
         {
             SFAssetDatabaseEditor wnd = GetWindow<SFAssetDatabaseEditor>();
             wnd.titleContent = new GUIContent("SF Asset Database");
         }
+        */
+        
 
         public void CreateGUI()
         {
