@@ -14,15 +14,18 @@ namespace SF.DataAssets
         /// When a SFDataGroup is created we just set the newly created SFDataGroup by this,
         /// than increment this value by one.
         /// </summary>
-        private static int NextGroupID = 0;
+        //private static int NextGroupID = 0;
 
         public int ID;
         public string Name;
 
+        /*
         /// <summary>
         /// Allows setting wether or not if the Data Group should use a default field when not data entry is found during data retrieval after filtering is done.
         /// </summary>
         [SerializeField] private bool _useDefaultField = true;
+        */
+        
         /// <summary>
         /// If no file is found when searching in this Data Group after filtering search results, than if this value is not null use it.
         /// </summary>
