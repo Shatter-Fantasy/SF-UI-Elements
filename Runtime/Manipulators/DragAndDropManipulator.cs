@@ -25,7 +25,7 @@ namespace SF
 		/// <param name="evt"></param>
 		private void PointerDownHandler(PointerDownEvent evt)
 		{
-			TargetStartPosition = target.transform.position;
+			TargetStartPosition = target.resolvedStyle.translate;
 			PointerStartPosition = evt.position;
 			target.CapturePointer(evt.pointerId);
 			Enabled = true;
@@ -54,7 +54,7 @@ namespace SF
 				Vector3 pointerDelta = evt.position - PointerStartPosition;
 
 				// Make sure we can not leave the current panel's world bound aka element borders.
-				target.transform.position = new Vector2(
+				target.style.translate = new Vector2(
 					Mathf.Clamp(TargetStartPosition.x + pointerDelta.x, 0, target.panel.visualTree.worldBound.width),
 					Mathf.Clamp(TargetStartPosition.y + pointerDelta.y, 0, target.panel.visualTree.worldBound.height));
 			}
