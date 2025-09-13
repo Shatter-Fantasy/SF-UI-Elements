@@ -95,6 +95,15 @@ SideBarLayout .side-bar{
 }
 
 
+/* Foldout Styling */
+.sf__foldout .unity-foldout__text{
+    font-size: 48px;
+}
+
+/* This is the checkmark to click to open and close the foldout.*/
+.unity-foldout__toggle > .unity-toggle__input:checked > .unity-foldout__checkmark {
+}
+
 .card {
     min-width: 200px;
     width: 25%;
