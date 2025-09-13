@@ -30,6 +30,15 @@ namespace SF.UIElements.Utilities
             SFRow row = new();
             return parent.AddChild(row);
         }
+        
+        public static T AddRow<T>(this T parent, VisualElement child) where T : VisualElement
+        {
+            SFRow row = new();
+            if(child != null)
+                row.Add(child);
+            
+            return parent.AddChild(row);
+        }
 
         /// <summary>
         /// Adds the sf-row--item uss class name to the first depth children.
