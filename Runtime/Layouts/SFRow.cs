@@ -1,5 +1,3 @@
-using System;
-
 using UnityEngine.UIElements;
 
 namespace SF.UIElements
@@ -7,14 +5,15 @@ namespace SF.UIElements
     [UxmlElement]
     public partial class SFRow : VisualElement
     {
-        [UxmlAttribute("two-column")] public bool TwoColumn { get; set; }
+        [UxmlAttribute(TwoColumnUSSClassName)] public bool TwoColumn { get; set; }
         public const string USSClassName = "sf-row";
+        public const string TwoColumnUSSClassName = "two-column";
 
         public SFRow()
         {
             AddToClassList(USSClassName);
             if(TwoColumn)
-                AddToClassList("two-column");
+                AddToClassList(TwoColumnUSSClassName);
         }
 
         public SFRow(string className) : this()
